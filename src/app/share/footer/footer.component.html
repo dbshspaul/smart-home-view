@@ -4,6 +4,8 @@
     [colspan]="tile.cols"
     [rowspan]="tile.rows"
     [style.background]="tile.color" routerLink="{{tile.link}}">
-    {{tile.text}}
+    <button color="primary" mat-icon-button>
+      <mat-icon>{{tile.text}}</mat-icon>
+    </button>
   </mat-grid-tile>
 </mat-grid-list>

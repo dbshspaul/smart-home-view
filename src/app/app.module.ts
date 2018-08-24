@@ -3,11 +3,11 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {MatButtonModule, MatGridListModule, MatIconModule} from '@angular/material';
+import {MatButtonModule, MatGridListModule, MatIconModule, MatToolbarModule} from '@angular/material';
 import {HomeModule} from './home/home.module';
 import {RouterModule} from '@angular/router';
 import {FooterComponent} from './share/footer/footer.component';
-import {ShareModule} from "./share/share.module";
+import {ShareModule} from './share/share.module';
 
 
 @NgModule({
@@ -23,6 +23,7 @@ import {ShareModule} from "./share/share.module";
     MatIconModule,
     HomeModule,
     ShareModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

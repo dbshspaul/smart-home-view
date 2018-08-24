@@ -18,10 +18,8 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   tiles: Tile[] = [
-    {text: 'One', cols: 1, rows: 1, color: 'lightblue', link: '/'},
-    {text: 'Two', cols: 1, rows: 1, color: 'lightgreen',  link: '/home'}/*,
-    {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
-    {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},*/
+    {text: 'arrow_back', cols: 1, rows: 1, color: 'lightgreen',  link: '/'},
+    {text: 'home', cols: 1, rows: 1, color: 'lightblue', link: '/home'}
   ];
 
   ngOnInit() {

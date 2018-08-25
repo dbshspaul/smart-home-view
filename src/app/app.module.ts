@@ -23,7 +23,6 @@ import {ShareModule} from './share/share.module';
     MatIconModule,
     HomeModule,
     ShareModule,
-    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

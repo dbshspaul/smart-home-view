@@ -1,9 +1,6 @@
 footer {
   width: 100%;
-  background-image: none;
-  background-repeat: repeat;
-  background-position: 0% 0%;
   position: fixed;
-  bottom: 0pt;
-  left: 0pt;
+  bottom: 0;
+  left: 0;
 }
